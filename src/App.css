@@ -17,14 +17,14 @@
 
 
 .Weather-Card{
-  color: rgb(55, 117, 117);
-  background-color: rgba(0, 255, 255, 0.5);
+  color: rgb(255 255 255);
+  background-color: rgb(34 34 34 / 76%);
   padding: 100px;
   width: 600px;
-  height: 500px;
+  height: 550px;
   border-radius: 1rem;
   border: 0ch;
-  box-shadow: 5px 5px 5px rgba(1, 255, 137, 0.466);
+  box-shadow: 5px 5px 5px rgb(9 9 9 / 47%);
 }
 
 .fa-cloud{
@@ -40,9 +40,30 @@
   line-height : 1px;
 }
 
-.Button{
+.fa-exchange{
+  font-size: 20px;
+}
+
+.button{
   display: flex;
-  margin-top: 40px;
+  margin-top: 50px;
   justify-content: center;
+}
+
+.button button{
+  color: rgb(231 231 231);
+  border-radius: 50%;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-top: 5px;
   align-items: center;
+  justify-content: center;
+  border: 0px solid white;
+  background-color: rgb(45 161 181 / 86%);
+}
+
+.temp{
+  font-size: 40px;
 }
